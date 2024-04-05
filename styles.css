@@ -1,0 +1,35 @@
+/* Style untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 2px solid #000; /* Menambahkan garis tepi dengan ketebalan 2px dan warna hitam */
+  }
+  
+  /* Style untuk judul kolom */
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd; /* Menambahkan garis tepi dengan ketebalan 1px dan warna abu-abu */
+  }
+  
+  /* Style untuk sel data */
+  td {
+    padding: 8px;
+    border: 1px solid #ddd; /* Menambahkan garis tepi dengan ketebalan 1px dan warna abu-abu */
+  }
+  
+  /* Style untuk baris genap dalam tabel */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Style untuk gambar */
+  img {
+    display: block;
+    margin: auto;
+    max-width: 200px; /* Menentukan lebar maksimal gambar */
+    max-height: 200px; /* Menentukan tinggi maksimal gambar */
+  }
+  
